@@ -1,0 +1,107 @@
+body {
+  background-image: url("./bgPIc.jpg");
+}
+.todoBody {
+  text-align: center;
+  width: 450px;
+  margin: auto;
+}
+.todoHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: inset rgb(43, 0, 255) 0 0 10px;
+  height: 100px;
+  width: 450px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.todoHeadLeft {
+  background-color: blue;
+  height: 80px;
+  width: 160px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  font-size: large;
+  font-weight: bolder;
+  text-shadow: black 0 0 3px;
+  color: white;
+  font-family: fantasy;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: white 0 0 10px;
+}
+.todoHeadRight {
+  background-color: blue;
+  height: 80px;
+  width: 270px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: white 0 0 10px;
+}
+
+#todoText {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  resize: none;
+  width: 250px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  line-height: 25px;
+  height: 25px;
+}
+#submit {
+  border-radius: 50%;
+  font-size: large;
+}
+.todoMain ol {
+  color: blue;
+  font-size: x-large;
+  list-style-position: inside;
+  text-align: left;
+}
+.todoMain ol button {
+  background-color: red;
+  color: white;
+  margin: auto 10px;
+  font-size: medium;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 20px;
+  height: 10px;
+  line-height: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.todoFooter {
+  position: absolute;
+  bottom: 1vh;
+  left: 10px;
+  right: 10px;
+}
+
+.footerr{
+ display: flex;
+ justify-content: space-between;
+ font-size: medium;
+}
+
+#Footer1{
+  text-decoration:underline dotted blue ;
+  color:rgb(0, 0, 0);
+  text-shadow: rgb(255, 255, 255) 0 0 0.2px;
+}
+
+#Footer2,#Footer3{
+box-shadow: inset black 0px 2px 10px;
+padding: 5px;
+}
